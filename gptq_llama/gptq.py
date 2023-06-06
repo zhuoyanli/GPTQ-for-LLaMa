@@ -4,9 +4,10 @@ import time
 import torch
 import torch.nn as nn
 import transformers
-import quant
 from texttable import Texttable
-from utils import torch_snr_error
+
+from gptq_llama.utils import torch_snr_error
+from gptq_llama import quant
 
 torch.backends.cuda.matmul.allow_tf32 = False
 torch.backends.cudnn.allow_tf32 = False

@@ -1,7 +1,7 @@
 safetensors==0.3.0
 datasets==2.10.1
-sentencepiece
-git+https://github.com/huggingface/transformers
+sentencepiece==0.1.99
+transformers==4.29.2
 accelerate==0.17.1
 triton==2.0.0
 texttable

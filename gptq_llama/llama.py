@@ -3,10 +3,10 @@ import time
 import numpy as np
 import torch
 import torch.nn as nn
-import quant
+from gptq_llama import quant
 
-from gptq import GPTQ, Observer
-from utils import find_layers, DEV, set_seed, get_wikitext2, get_ptb, get_c4, get_ptb_new, get_c4_new, get_loaders, export_quant_table, gen_conditions
+from gptq_llama.gptq import GPTQ, Observer
+from gptq_llama.utils import find_layers, DEV, set_seed, get_wikitext2, get_ptb, get_c4, get_ptb_new, get_c4_new, get_loaders, export_quant_table, gen_conditions
 from texttable import Texttable
 
 
