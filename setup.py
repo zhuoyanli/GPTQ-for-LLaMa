@@ -19,7 +19,7 @@ setup(
         "datasets==2.10.1",
         "sentencepiece",
         "transformers",
-        "accelerate==0.17.1",
+        "accelerate",
         "triton==2.0.0",
         "texttable==1.6.7",
         "toml==0.10.2"
